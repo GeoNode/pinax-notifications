@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-VERSION = "6.0.1"
+VERSION = "6.0.0.2"
 LONG_DESCRIPTION = """
 .. image:: http://pinaxproject.com/pinax-design/patches/pinax-notifications.svg
     :target: https://pypi.python.org/pypi/pinax-notifications/
@@ -62,7 +62,8 @@ setup(
     author="Pinax Team",
     author_email="team@pinaxproject.com",
     description="User notification management for the Django web framework",
-    name="pinax-notifications",
+    long_description_content_type="text/markdown",
+    name="geonode-pinax-notifications",
     long_description=LONG_DESCRIPTION,
     version=VERSION,
     url="http://github.com/pinax/pinax-notifications/",
