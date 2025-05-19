@@ -93,7 +93,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=[
-        "django>=4.2,<5.0",
+        "django>=4.2,<5.3",
         "django-appconf>=1.0.1",
     ],
     tests_require=[
