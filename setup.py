@@ -5,7 +5,7 @@ setup(
     name="geonode-pinax-notifications",
     version="6.0.0.3",
     description="User notification management for the Django web framework",
-    long_description="README.md",
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="http://github.com/pinax/pinax-notifications/",
     license="MIT",
