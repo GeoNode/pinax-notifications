@@ -3,7 +3,7 @@ setup(
     author="Pinax Team",
     author_email="team@pinaxproject.com",
     name="geonode-pinax-notifications",
-    version="6.0.0.3",
+    version="6.0.0.4",
     description="User notification management for the Django web framework",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
